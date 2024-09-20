@@ -2,7 +2,7 @@
 
 import static groovy.json.JsonOutput.toJson
 
-void call(final Map<String, String> buildProperties = [:], final String url = env.id:aziz-space) {
+void call(final Map<String, String> buildProperties = [:], final String url = https://chat.googleapis.com/v1/spaces/AAAAdmKlymY/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=N2ciE_AgygArGpT28EEM5xWj6tnVASe91UHkVu1nKsU) {
     final Map<String, String> RESULT_IMGS = [
         SUCCESS: "https://jenkins.io/doc/book/resources/blueocean/dashboard/status-passed.png",
         UNSTABLE: "https://jenkins.io/doc/book/resources/blueocean/dashboard/status-unstable.png",
