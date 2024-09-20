@@ -1,4 +1,4 @@
-# Jenkins Test Results Notification (work in progress!)
+## Jenkins Test Results Notification (work in progress!)
 
 This repository can be used as a [Shared Library][Shared Libraries] by [Jenkins]. It implements different steps to be used in a [Jenkins Pipeline] to send messages to [Google Chat Service] Groups.
 
