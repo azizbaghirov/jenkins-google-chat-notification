@@ -2,7 +2,7 @@
 
 import static groovy.json.JsonOutput.toJson
 
-void call(final Map<String, String> buildProperties = [:], final String url = env.GOOGLE_CHAT_URL) {
+void call(final Map<String, String> buildProperties = [:], final String url = env.id:aziz-space) {
     final Map<String, String> RESULT_IMGS = [
         SUCCESS: "https://jenkins.io/doc/book/resources/blueocean/dashboard/status-passed.png",
         UNSTABLE: "https://jenkins.io/doc/book/resources/blueocean/dashboard/status-unstable.png",
